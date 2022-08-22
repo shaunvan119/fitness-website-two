@@ -4,7 +4,7 @@ import videoBg from "../../assets/videoBgtwo.mp4"
 
 const Header = () => {
   return (
-    <div className='main-header'>
+    <div className='main-header '>
     
   
     <div className='overlay'></div>

@@ -1,0 +1,27 @@
+
+.grid-wrapper {
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 50px;
+    
+}
+
+.grid-section {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid-image {
+    margin: 10px;
+}
+
+.grid-image-right {
+    margin-top: 100px;
+}
+
+
+.grid-image-left {
+    margin-top: -80px;
+}
