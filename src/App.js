@@ -1,10 +1,11 @@
-
+import Header from "./containers/header/Header";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Place holder</h1>
+    <Header/>
+     
     </div>
   );
 }
