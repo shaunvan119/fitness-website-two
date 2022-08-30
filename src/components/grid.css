@@ -54,13 +54,35 @@
     top: 86px;
 }
 
+.overlay-left {
+  top: -90px;
+  height: 362px;
+
+}
+
+.overlay-right-two {
+height: 362px;
+
+}
+
+.overlay-left-two {
+  height: 362px;
+  top: -90px;
+}
+
+.overlay-right-three {
+  height: 362px;
+
+}
+
 .container:hover .overlay {
   opacity: .8;
 }
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
