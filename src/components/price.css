@@ -1,0 +1,55 @@
+.pricecard-wrapper-one,.pricecard-wrapper-two {
+  background-color: none;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 15px rgb(164, 162, 162);
+  text-align: center;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.price-p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-price {
+  background-color: #EA4C89;
+  width: 200px;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  height: 60px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}

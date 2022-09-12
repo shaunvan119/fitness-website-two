@@ -3,6 +3,7 @@ import './body.css'
 import { BiTimeFive } from 'react-icons/bi';
 import {BiHome} from 'react-icons/bi';
 import GridPics from '../../components/GridPics';
+import PriceCard from '../../components/PriceCard';
 
 
 const Body = () => {
@@ -35,6 +36,10 @@ const Body = () => {
     <h1 className="community-h1">Be part of a fit community</h1>
      <div className='grid-section'>
         <GridPics/>
+        </div>
+
+        <div>
+          <PriceCard/>
         </div>
     </div>
   )
