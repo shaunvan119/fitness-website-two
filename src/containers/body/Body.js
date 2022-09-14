@@ -4,6 +4,7 @@ import { BiTimeFive } from 'react-icons/bi';
 import {BiHome} from 'react-icons/bi';
 import GridPics from '../../components/GridPics';
 import PriceCard from '../../components/PriceCard';
+import ContactForm from '../../components/ContactForm';
 
 
 const Body = () => {
@@ -40,6 +41,7 @@ const Body = () => {
 
         <div>
           <PriceCard/>
+          
         </div>
     </div>
   )
