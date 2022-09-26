@@ -52,3 +52,34 @@
 .button-1:focus {
   background-color: #F082AC;
 }
+
+@media only screen and (max-width: 326px) {
+ .price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.pricecard-wrapper-one,.pricecard-wrapper-two {
+  width: 180px;
+}
+
+.button-price {
+   width: 180px;
+   font-size: 20px;
+
+}
+
+.community-h1 {
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+
+
+
+
+}

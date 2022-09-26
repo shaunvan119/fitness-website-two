@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+
+}
+
+.contact_heading {
+  color: black;
 }
 
 .centered-form {
@@ -9,6 +14,9 @@
   margin-top: 100px;
   
 }
+
+
+
 
 .form-contact {
   display: flex;
@@ -19,14 +27,14 @@
 
 .form-contact {
   align-items: center;
-  
+ 
 }
 
 label {
-    color: #FFFFFF;
+    color: black;
     margin-right: 430px;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 800;
     line-height: 16px;
     letter-spacing: 2px;
     text-align: left;
@@ -43,25 +51,33 @@ label {
   
 }
 
+.input-button:hover {
+  background-color: #EA4C89;
+ 
+}
+
 .input-button {
-  height: 40px;
-  width: 158px;
-  border-radius: 0px;
+  height: 60px;
+  width: 258px;
+  font-size: 18px;
+  border-radius: 100px;
   background-color: #000000;
   color: #ffffff;
   border: none;
 }
 
-
+.msg-input {
+  height: 100px;
+}
 
 .contact-us-header {
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 4.166666507720947px;
     text-align: center;
-    color: #FFFFFF;
+    color: balc;
 
 }
 
@@ -70,7 +86,7 @@ label {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 2px;
-    color: #fa7064;
+    color: black;
 }
 
 .background-image {

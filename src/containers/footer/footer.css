@@ -1,3 +1,36 @@
 .background {
     max-width: 100%;
 }
+
+.footer_image {
+    height: 150px;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copy_right {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 326px) {
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .copy_right {
+        font-size: 10px;
+    }
+  
+
+
+}

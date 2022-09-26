@@ -47,14 +47,14 @@ const ContactForm = () => {
         backgroundRepeat: 'no-repeat', 
         backgroundSize: 'cover' }}> 
      <div className="centered-form">
-     <h1 className="contact-us-header">We’ll get in touch shortly.</h1>
+     <p className="contact-us-header contact_heading">We’ll get in touch shortly.</p>
       <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input className="input-contact" type="text" name="user_name" />
         <label>Email</label>
         <input className="input-contact" type="email" name="user_email" />
         <label >Message</label>
-        <textarea className="input-contact" name="message" />
+        <textarea className="input-contact msg-input" name="message" />
         <div> {result ? <Result/> : null}</div>
         <input className="input-button" type="submit" value="Send" />
       </form>

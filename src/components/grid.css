@@ -92,3 +92,12 @@ height: 362px;
   text-align: center;
 
 }
+
+@media only screen and (max-width: 326px) {
+  .grid-image {
+    
+    height: 120px;
+}
+
+
+}
