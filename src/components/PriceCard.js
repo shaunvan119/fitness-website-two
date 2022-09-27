@@ -21,7 +21,7 @@ const PriceCard = () => {
         <p>Online fit community support</p>
         <p>One online coaching session per week</p>
         <p className='price-p'>$99 p/wk</p>
-        <button className="button-price">Get 25% off</button>
+        <Link to="/contactUs"><button className="button-price">Get 25% off</button></Link>
     </div>
 </div>
   )

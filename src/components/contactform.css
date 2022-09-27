@@ -92,3 +92,32 @@ label {
 .background-image {
     height: 100vh;
 }
+
+@media only screen and (max-width: 500px) {
+
+  .contact-us-header {
+    font-size: 25px;
+
+}
+
+.input-contact {
+ 
+  width: 258px;
+
+  
+}
+
+label {
+  
+  position: relative;
+  left: 130px;
+  color: white;
+
+}
+
+.result-msg {
+  color: white;
+}
+  
+
+}

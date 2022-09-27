@@ -93,11 +93,17 @@ height: 362px;
 
 }
 
-@media only screen and (max-width: 326px) {
+@media only screen and (max-width: 500px) {
   .grid-image {
     
     height: 120px;
 }
+
+.overlay, .overlay-right, .overlay-left {
+  display: none;
+}
+
+
 
 
 }
